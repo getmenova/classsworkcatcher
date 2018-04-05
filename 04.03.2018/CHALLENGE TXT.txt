@@ -1,0 +1,15 @@
+//101 * 1010
+//11001011 - 1010010
+//1011111000 / 1010
+//101101 + 110100
+//1010100 - 0001000
+//1000000 + 10
+
+1. Convert the binary numbers to decimal notation
+2. Perform the math
+3. Translate result using ASCII table
+4. input each result in sequential order to complete the url
+
+http://bit.ly/******
+
+*=result
