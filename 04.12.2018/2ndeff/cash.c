@@ -1,5 +1,14 @@
-int multipleWhiles(int anAmount) {
-    int change = anAmount;
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+
+int main(void) {
+    float dollars;
+    do {
+      dollars = get_float("Change: ");
+    }
+    while (dollars < 0);
+    int change = round(dollars * 100);
     int coins = 0;
     while(change >= 25)
     {
@@ -21,5 +30,5 @@ int multipleWhiles(int anAmount) {
         change = change - 1;
         coins++;
     }
-    return coins;
+    printf("%i\n", coins);
 }
