@@ -25,5 +25,5 @@ int main(void) {
             amount -= 1;
         }
     }
-    printf("%i\n", coins)
+    printf("%i\n", coins);
 }
