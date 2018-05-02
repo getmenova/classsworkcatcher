@@ -9,4 +9,4 @@ int main(void)
     {
         printf("%c %i\n", s[i], (int) s[i]);
     }
-}
+}>>>>
